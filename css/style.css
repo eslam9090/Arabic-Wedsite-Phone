@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&family=Lalezar&family=Oswald:wght@500&family=Tajawal:wght@300;400;700&display=swap"); /* font-family: 'Cairo', sans-serif;
+font-family: 'Tajawal', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: "Tajawal", sans-serif;
+}
+.row {
+  display: table;
+  content: "";
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+}
+.col1 {
+  width: 8.33%;
+  float: left;
+  min-height: 1px;
+}
+.col2 {
+  width: 16.66%;
+  float: left;
+  min-height: 1px;
+}
+.col3 {
+  width: 25%;
+  float: left;
+  min-height: 1px;
+}
+.col4 {
+  width: 33.33%;
+  float: left;
+  min-height: 1px;
+}
+.col5 {
+  width: 41.66%;
+  float: left;
+  min-height: 1px;
+}
+.col6 {
+  width: 50%;
+  float: left;
+  min-height: 1px;
+}
+.col7 {
+  width: 58.33%;
+  float: left;
+  min-height: 1px;
+}
+.col8 {
+  width: 66.66%;
+  float: left;
+  min-height: 1px;
+}
+.col9 {
+  width: 75%;
+  float: left;
+  min-height: 1px;
+}
+.col10 {
+  width: 83.33%;
+  float: left;
+  min-height: 1px;
+}
+.col11 {
+  width: 91.66;
+  float: left;
+  min-height: 1px;
+}
+.col12 {
+  width: 100%;
+  float: left;
+  min-height: 1px;
+}
+.row-header {
+  background-color: #ffffff;
+  padding-top: 20px;
+  height: 10vh;
+  position: fixed;
+}
+.col6-header a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: #a4a0ad;
+}
+.col4-header h4 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Lalezar", cursive;
+}
+.col4-header i {
+  color: blueviolet;
+}
+.bttn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:  blueviolet;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.col6-header a:hover {
+  color: blueviolet;
+
+}
+.row-sec {
+  height: 90vh;
+}
+.sec-main {
+  background-color: #f9f7fd;
+}
+.img-5 {
+  height: 400px;
+  padding-top: 50px;
+}
+.col5-sec1 {
+  padding-top: 200px;
+}
+.col5-sec1 h4 {
+  color: blueviolet;
+}
+.col5-sec1 p span {
+  color: blueviolet;
+}
+.row-cards {
+  padding-bottom: 50px;
+}
+
+.sec-cards {
+  background-color: #f9f7fd;
+}
+.col2-cards {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 20px;
+  height: 120px;
+  border-radius: 15px;
+}
+.col2-cards i {
+  color: blueviolet;
+}
+.col2-cards:hover{
+    border: 2px solid blueviolet;
+
+}
+.row-title {
+  background-color: #f9f7fd;
+}
+.col2-cards p {
+  color: #a4a0ad;
+}
+.row-title2 {
+  padding-top: 50px;
+}
+.col3-title {
+  color: blueviolet;
+}
+footer{
+    padding-top: 40px;
+}
+.footer-container{
+    
+    background-color:  #f9f7fd;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.col2-phones h4{
+    padding-top: 10px ;
+}
+.row-title2 h2{
+    margin-left: 50px;
+}
+.pra{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.footer-icons .fa-brands{
+    cursor: pointer;
+    padding: 0px 20px ;
+    color: blueviolet;
+    transition: all .2s ease-in-out;
+}
+.footer-icons :hover{
+    color:rgb(42, 3, 82);
+    transform: scale(1.1); 
+  
+}
+.col2-phones :hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+::-webkit-scrollbar {
+    width: 1.05rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 7px solid #ecf0ff;
+    box-shadow: inset 0 0 2.5px 2px rgba(109, 0, 235, 0.5);
+    border-radius: 1rem;
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #a150e4, #3d4a59);
+    border-radius: 1rem;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(270deg, #5e08cf, #974bfa, #b370ff);
+  }
+   
+  /* for Firefox */
+   html {scrollbar-color: #9e4673 #3d4a59;} 
